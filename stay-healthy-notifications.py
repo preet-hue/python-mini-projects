@@ -15,7 +15,7 @@ if __name__ == "__main__":
             app_icon="D:\github\python-mini-projects\eyes.ico",
             timeout=6
         )
-        time.sleep(20 * 20)
+        time.sleep(1200)
 
         notification.notify(
             title="GET HYDRATED!!!",
@@ -30,3 +30,5 @@ if __name__ == "__main__":
             timeout=6
         )
         time.sleep(20 * 20)
+        continue
+
